@@ -1,0 +1,30 @@
+{
+  "name": "guest_authenticator",
+  "version": "1.0.0",
+  "description": "Guest Authenticator app",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon --exec node ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": "8.1.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "express": "^4.15.3",
+    "http": "0.0.0",
+    "materialize-css": "^0.99.0",
+    "mongoose": "^6.3.4",
+    "path": "^0.12.7",
+    "python-shell": "^0.4.0",
+    "qr-image": "^3.2.0",
+    "serve-favicon": "^2.4.3",
+    "socket.io": "^4.5.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
