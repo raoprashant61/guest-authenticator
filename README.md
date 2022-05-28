@@ -12,7 +12,7 @@ The face recognition is built using dlib's pretrained model with 99.38% accuracy
 * [Express.js](https://expressjs.com/) - Used as web-application framework
 * [Socket.IO](https://socket.io/) - Used as real-time engine for communication
 
-### Installations
+## Installations
 1. Download the [face_recognition](https://github.com/ageitgey/face_recognition) python package.
 2.  Download OpenCV3.
 3. Download or clone my git repository code.
@@ -27,6 +27,6 @@ The face recognition is built using dlib's pretrained model with 99.38% accuracy
 
 3. To run it: `npm run start`, after you see `Server listening on port: 3000.` open your browser and type: **`localhost:3000`** and it's done.
 
-### Results
+## Results
 ![](https://i.imgur.com/TzQEXUY.png)
 ![](https://i.imgur.com/KJ3dKQW.png)
